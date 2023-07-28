@@ -1,0 +1,29 @@
+/* UserProfile.css */
+
+.user-profile {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.profile-details {
+  font-size: 1rem;
+}
+
+.profile-details div {
+  margin-bottom: 0.5rem;
+}
+
+.profile-details strong {
+  margin-right: 0.5rem;
+}
+

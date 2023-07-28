@@ -1,0 +1,137 @@
+.cart{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.cart-header{
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  column-gap: 20px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  font-weight: bold;
+}
+.cart-header-product{
+ grid-column-start: 1;
+}
+
+.cart-header-quantity{
+  grid-column-start: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  max-width: 100%;
+}
+
+.cart-footer-total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.cart-footer-total span{
+  font-weight: bold;
+}
+
+.promo-code{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+}
+
+.promo-code-label{
+  width: 100%;
+}
+
+.promo-code-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+ max-width: fit-content;
+}
+
+.promo-code-input input{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+  outline: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.promo-code-input button{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.promo-code-input button:hover{
+  background-color: #ccc;
+}
+
+.cart-footer-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.cart-footer-buttons button{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cart-footer-buttons button:hover{
+  background-color: #ccc;
+}
+
+.cart-footer-checkout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-footer-checkout button{
+  border: 1px solid #ccc;
+  width: 50%;
+  height: 50px;
+  color: #fff;
+  background-color: #15c43298;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

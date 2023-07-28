@@ -1,0 +1,16 @@
+/* ChatPage.css */
+
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.chat-page-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Add any additional styling as needed */

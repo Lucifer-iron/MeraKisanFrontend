@@ -1,0 +1,224 @@
+.footer{
+ display: flex;
+ justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  height: 20rem;
+  margin-top: 2rem;
+  padding: rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* logo and social */
+.logoAndSocial{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.footer-logo {
+    width: 10rem;
+    height: auto;
+
+  }
+  .footer-logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .footer-social a {
+    width: 2rem;
+    height: 2rem;
+  }
+.social-icon{
+  width: 2rem;
+  height: 2rem;
+  color: rgb(52, 143, 41);
+}
+
+
+/* category */
+.category{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+
+}
+.category h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(52, 143, 41);
+}
+.category ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+
+}
+.category ul li{
+  list-style: none;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(52, 143, 41);
+}
+/* useful links */
+.useful-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+ 
+}
+.useful-links h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(52, 143, 41);
+}
+.useful-links ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+.useful-links ul li{
+  list-style: none;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(52, 143, 41);
+}
+
+/* newsletter */
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+}
+.newsletter h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(52, 143, 41);
+}
+.newsletter p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(52, 143, 41);
+}
+
+.newsletter form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.newsletter input::placeholder{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(52, 143, 41);
+}
+
+.newsletter input:focus{
+  outline: none;
+}
+.newsletter input:hover{
+  outline: none;
+}
+.newsletter button:focus{
+  outline: none;
+}
+
+.newsletter input{
+  width: 90%;
+  height: 2rem;
+  border: 2px solid rgb(52, 143, 41);
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+.newsletter button{
+  width: 100%;
+  height: 2rem;
+  border: 2px solid rgb(52, 143, 41);
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: rgb(52, 143, 41);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.newsletter button:hover{
+  background-color: white;
+  color: rgb(52, 143, 41);
+  cursor: pointer;
+}
+.newsletter button:active{
+  background-color: white;
+  color: rgb(52, 143, 41);
+  cursor: pointer;
+}
+.newsletter button:focus{
+  background-color: white;
+  color: rgb(52, 143, 41);
+  cursor: pointer;
+}
+.newsletter button:visited{
+  background-color: white;
+  color: rgb(52, 143, 41);
+  cursor: pointer;
+}
+.newsletter button:link{
+  background-color: white;
+  color: rgb(52, 143, 41);
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .footer{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logoAndSocial{
+    width: 100%;
+  }
+  .category{
+    width: 100%;
+  }
+  .useful-links{
+    width: 100%;
+  }
+  .newsletter{
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* newsletter */
+

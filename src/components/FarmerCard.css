@@ -1,0 +1,151 @@
+/* farmerCard.css */
+
+.farmer-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out;
+    margin: 1rem;
+  
+  }
+  
+  .farmer-card:last-child {
+    margin-right: 0;
+  }
+  
+  .farmer-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .farmer-image {
+    width: 100%;
+    height: 0;
+    border-radius: 5px;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  .farmer-image img {
+    flex: 1 1 120px;
+    aspect-ratio: 1/1 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .farmer-details {
+    width: 100%;
+  }
+  
+  .farmer-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .farmer-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .farmer-location {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .farmer-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+  }
+ 
+  .farmer-buttons:hover {
+    background-color: #0069d9;
+  }
+  
+  .farmer-buttons a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .farmer-buttons a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .farmer-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .farmer-buttons button:hover {
+    background-color: #0069d9;
+  }
+
+   
+  .rating-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+
+  }
+   
+  .rating-btn {
+    border: none;
+    color:#fff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap:6px;
+    background-color: #bdc0c5;
+    border-radius: 4px;
+    padding: 6px 15px;
+    margin: 0 10px;
+  }
+   
+  .like-active {
+    background-color: #FF0063;
+  }
+   
+  .dislike-active {
+    background-color: #394350;
+  }
+
+  @media (max-width: 768px) {
+    .farmer-card {
+      width: calc(50% - 0.5rem);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .farmer-card {
+      width: 100%;
+      margin-right: 0;
+    }
+  }

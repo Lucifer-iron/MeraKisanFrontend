@@ -1,0 +1,40 @@
+/* OrderHistory.css */
+
+.order-history {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.history-list {
+  font-size: 1rem;
+}
+
+.order-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.order-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.order-item div {
+  margin-bottom: 0.5rem;
+}
+
+.order-item strong {
+  margin-right: 0.5rem;
+}
+

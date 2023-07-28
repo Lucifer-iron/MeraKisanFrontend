@@ -1,0 +1,16 @@
+/* UserProfilePage.css */
+
+.user-profile-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.user-profile-page-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Add any additional styling as needed */

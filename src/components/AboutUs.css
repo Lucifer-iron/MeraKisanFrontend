@@ -1,0 +1,39 @@
+.about-us {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+ background-image: url("https://images.unsplash.com/photo-1517245386807-51e6d4d6b3e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.about-us img {
+  width: 100%;
+  max-width: 20rem;
+  margin-right: 2rem;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-us button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.about-us button:hover {
+  background-color: #005ea6;
+}
